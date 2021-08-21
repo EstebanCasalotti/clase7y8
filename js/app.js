@@ -1,3 +1,7 @@
+let comprador = prompt(`Bienvenido, porfavor ingrese su nombre completo`)
+let verAutos = confirm(`Bienvenido sr/a ${comprador}, desea conocer nuestros modelos`)
+
+
 class auto {
     constructor(marca, color, modelo, precio, vendedor){
         this.marca = marca;
